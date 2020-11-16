@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>ESP8266 Web Server</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="ESP8266 Web Server AJAX SPIFFS AsyncWebServer">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="./script.js"></script>
+</head>
+
+<body>
+    <h1>ESP8266 Web Server</h1>
+    <h3>AJAX SPIFFS AsyncWebServer</h3>
+    <p>GPIO state<strong> %STATE%</strong></p>
+    <p>
+        <a href="/on"><button class="button">ON</button></a>
+        <a href="/off"><button class="button button-red">OFF</button></a>
+    </p>
+    <p>
+        <span class="sensor-labels">Temperature DS18B20 sensor</span>
+        <span id="temperature">%TEMPERATURE%</span>
+        <sup class="units">&deg;C</sup>
+    </p>
+</body>
+
+</html>
